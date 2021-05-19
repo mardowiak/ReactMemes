@@ -1,4 +1,6 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Hot from "../Hot"
+import Regular from "../Regular"
 export default function NavigationRoute() {
   return (
     <Router>
