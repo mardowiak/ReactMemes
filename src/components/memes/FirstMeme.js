@@ -1,5 +1,5 @@
 import initialMeme from "./img/initialMeme.jpg";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 export default function FirstMeme() {
   const [upvotes, setUpvotes] = useState(10);
   const [downvotes, setDownvotes] = useState(3);
@@ -11,6 +11,7 @@ export default function FirstMeme() {
       img: "C:UsersMarcinDesktopReactMemes\bruhsrccomponentsmemesimg",
     },
   ];
+  
   return (
     <div>
       <h4>{memeData[0].title}</h4>
