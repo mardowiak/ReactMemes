@@ -1,17 +1,28 @@
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Hot from "../routes/Hot"
-import Regular from "../routes/Regular"
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  NavLink,
+} from "react-router-dom";
+import Hot from "../routes/Hot";
+import Regular from "../routes/Regular";
+import "./../../App.css";
 export default function NavigationRoute() {
   return (
     <Router>
       <div>
-        <nav>
-          <ul>
+        <nav className="navigation">
+          <ul className="navigation_list">
             <li>
-              <Link to="/">HOT</Link>
+              <NavLink to="/" activeClassName="selected">
+                HOT
+              </NavLink>
             </li>
             <li>
-              <Link to="/regular">REGULAR</Link>
+              <NavLink to="/regular" activeClassName="selected">
+                REGULAR
+              </NavLink>
             </li>
           </ul>
         </nav>

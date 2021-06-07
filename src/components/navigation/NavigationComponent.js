@@ -1,4 +1,4 @@
-import NavigationRoute from  "./NavigationRoute";
+import NavigationRoute from "./NavigationRoute";
 import Logo from "./Logo";
 export default function NavigationComponent() {
   return (

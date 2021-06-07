@@ -1,17 +1,16 @@
-import styled from 'styled-components';
-export default function Logo(){
+import styled from "styled-components";
 
-    const logo= 'BRUH!';
+const StyledLogo = styled.div`
+background-color: rgb(172, 24, 24);
+color: white;
+display: inline-block;
+padding: 0.5rem;
+font-size: 1.5rem;
+font-family: Trebuchet MS;
+`;
+export default function Logo() {
+  const title = "Memes!";
 
-    const Logo=styled.div`
-    background-color: rgb(172, 24, 24);
-    color:white;
-    display:inline-block;
-    padding:0.5rem;
-    font-size:1.5rem;
-    font-family: Trebuchet MS;
-    `
-    return(
-        <Logo>{logo}</Logo>
-    )
+ 
+  return <StyledLogo>{title}</StyledLogo>;
 }
