@@ -9,6 +9,9 @@ import mem8 from "../../img/mem8.jpg";
 import mem9 from "../../img/mem9.jpg";
 import mem10 from "../../img/mem10.jpg";
 
+import {MemesContext} from "./MemesContext"
+import MemesSeparator from "./MemesSeparator"
+
 export default function MemesList() {
  
   const memeData = [
@@ -73,5 +76,7 @@ export default function MemesList() {
       img: mem10
     },
   ];
-  return <div></div>;
+  return <MemesContext value={memeData}>
+    <MemesSeparator />
+  </MemesContext>;
 }

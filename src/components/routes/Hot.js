@@ -1,9 +1,9 @@
-import MemesList from "../memes/MemesList";
+import MemesSeparator from "../memes/MemesSeparator";
 export default function Hot() {
 
   return (
     <div>
-      <MemesList/>
+     <MemesSeparator/>
     </div>
   );
 }
