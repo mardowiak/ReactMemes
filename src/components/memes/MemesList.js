@@ -1,13 +1,13 @@
-import mem1 from "./img/mem1.jpg";
-import mem2 from "./img/mem2.jpg";
-import mem3 from "./img/mem3.jpg";
-import mem4 from "./img/mem4.jpg";
-import mem5 from "./img/mem5.jpg";
-import mem6 from "./img/mem6.jpg";
-import mem7 from "./img/mem7.jpg";
-import mem8 from "./img/mem8.jpg";
-import mem9 from "./img/mem9.jpg";
-import mem10 from "./img/mem10.jpg";
+import mem1 from "../../img/mem1.jpg";
+import mem2 from "../../img/mem2.jpg";
+import mem3 from "../../img/mem3.jpg";
+import mem4 from "../../img/mem4.jpg";
+import mem5 from "../../img/mem5.jpg";
+import mem6 from "../../img/mem6.jpg";
+import mem7 from "../../img/mem7.jpg";
+import mem8 from "../../img/mem8.jpg";
+import mem9 from "../../img/mem9.jpg";
+import mem10 from "../../img/mem10.jpg";
 
 export default function MemesList() {
  
