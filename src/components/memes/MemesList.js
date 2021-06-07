@@ -16,61 +16,61 @@ export default function MemesList() {
       title: "Mem1",
       upvotes: 7,
       downvotes: 0,
-      img: mem1,
+      img: mem1
     },
     {
       title: "Mem2",
-      upvotes: 0+,
+      upvotes: 0,
       downvotes: 0,
-      img: mem2,
+      img: mem2
     },
     {
       title: "Mem3",
       upvotes: 0,
       downvotes: 0,
-      img: mem3,
+      img: mem3
     },
     {
       title: "Mem4",
       upvotes: 0,
       downvotes: 0,
-      img: mem4,
+      img: mem4
     },
     {
       title: "Mem5",
       upvotes: 6,
       downvotes: 0,
-      img: mem5,
+      img: mem5
     },
     {
       title: "Mem6",
       upvotes: 0,
       downvotes: 0,
-      img: mem6,
+      img: mem6
     },
     {
       title: "Mem7",
       upvotes: 0,
       downvotes: 0,
-      img: mem7,
+      img: mem7
     },
     {
       title: "Mem8",
       upvotes: 4,
       downvotes: 0,
-      img: mem8,
+      img: mem8
     },
     {
       title: "Mem9",
       upvotes: 0,
       downvotes: 0,
-      img: mem9,
+      img: mem9
     },
     {
       title: "Mem10",
       upvotes: 0,
       downvotes: 0,
-      img: mem10,
+      img: mem10
     },
   ];
   return <div></div>;
