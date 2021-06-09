@@ -9,11 +9,8 @@ import mem8 from "../../img/mem8.jpg";
 import mem9 from "../../img/mem9.jpg";
 import mem10 from "../../img/mem10.jpg";
 
-import {MemesContext} from "../context/MemesContext"
-import MemesListCreator from "./MemesListCreator"
 
-export default function MemesList() {
-  const memeData = [
+export const memeData = [
     {
       title: "Mem1",
       upvotes: 7,
@@ -76,9 +73,4 @@ export default function MemesList() {
     },
   ];
 
-  return (
-    <MemesContext.Provider value={memeData}>
-    <MemesListCreator />
-    </MemesContext.Provider>
-  );
-}
+
