@@ -1,9 +1,8 @@
-
-import MemesSeparaotr from "../memes/MemesSeparator";
+import MemesList from "../memes/MemesList";
 export default function Regular() {
   return (
     <div>
-     <MemesSeparaotr/>
+      <MemesList />
     </div>
   );
 }
