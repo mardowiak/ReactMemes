@@ -1,9 +1,8 @@
 import { memeData } from "./MemesList";
-import { useState } from "react";
 
 export default function HotMemeList() {
 
-  const hotMemesList = memeData.map((meme) => (
+  const Memes = memeData.map((meme) => (
     <div>
       <h2>{meme.title}</h2>
       <img src={meme.img}></img>
@@ -16,5 +15,5 @@ export default function HotMemeList() {
     </div>
   ));
 
-  return <div>{hotMemesList}</div>;
+  return <div>{Memes}</div>;
 }

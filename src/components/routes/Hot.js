@@ -1,9 +1,9 @@
-import HotMemesList from "../memes/HotMemesList";
+import Memes from "../memes/Memes";
 export default function Hot() {
 
   return (
     <div>
- <HotMemesList/>
+ <Memes/>
     </div>
   );
 }
