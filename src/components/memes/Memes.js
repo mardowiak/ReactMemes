@@ -1,6 +1,7 @@
 import { memeData } from "./MemesList";
 
-export default function HotMemeList() {
+
+export default function Memes() {
 
   const Memes = memeData.map((meme) => (
     <div>
