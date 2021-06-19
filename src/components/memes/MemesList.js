@@ -10,9 +10,8 @@ import mem9 from "../../img/mem9.jpg";
 import mem10 from "../../img/mem10.jpg";
 import { createStore } from "redux";
 import { composeWithDevTools } from "redux-devtools-extension";
-
 export const memeData = [
-  {
+  { 
     title: "Mem1",
     upvotes: 7,
     downvotes: 0,
@@ -81,5 +80,5 @@ function memes(state = memeData, action) {
   }
 }
 
-const store= createStore(memes,composeWithDevTools())
+export const store= createStore(memes,composeWithDevTools())
 window.store=store;

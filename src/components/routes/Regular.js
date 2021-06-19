@@ -1,8 +1,8 @@
-import Memes from "../memes/Memes";
+import ShowMemes from "../memes/ShowMemes";
 export default function Regular() {
   return (
     <div>
-      <Memes />
+      <ShowMemes />
     </div>
   );
 }
