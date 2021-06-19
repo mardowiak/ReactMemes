@@ -1,11 +1,14 @@
-import { connect} from "react-redux";
+import { connect } from "react-redux";
 
 function ShowMemes({ memes }) {
+  const hotMemes = memes.filter(meme => meme.upvote > 5)
+
   return (<div>
-    {memes.map(meme => <div><h2>{meme.title}</h2>
+
+    {hotMemes.map(meme => <div><h2>{meme.title}</h2>
       <img src={meme.img} alt="img" />
       <div>
-        <button>Mocne({meme.upvotes})</button>
+        <button >Mocne({meme.upvotes})</button>
         <button>Słabe({meme.downvotes})</button>
       </div>
 
