@@ -11,61 +11,71 @@ import mem10 from "../../img/mem10.jpg";
 import { createStore } from "redux";
 import { composeWithDevTools } from "redux-devtools-extension";
 export const memeData = [
-  { 
+  {
+    id: 1,
     title: "Mem1",
     upvotes: 7,
     downvotes: 0,
     img: mem1,
   },
   {
+    id: 2,
     title: "Mem2",
     upvotes: 0,
     downvotes: 0,
     img: mem2,
   },
   {
+    id: 3,
     title: "Mem3",
     upvotes: 0,
     downvotes: 0,
     img: mem3,
   },
   {
+    id: 4,
     title: "Mem4",
     upvotes: 0,
     downvotes: 0,
     img: mem4,
   },
   {
+    id: 5,
     title: "Mem5",
     upvotes: 6,
     downvotes: 0,
     img: mem5,
   },
   {
+    id: 6,
     title: "Mem6",
     upvotes: 0,
     downvotes: 0,
     img: mem6,
   },
   {
+    id: 7,
     title: "Mem7",
     upvotes: 0,
     downvotes: 0,
     img: mem7,
   },
   {
+    id: 8,
     title: "Mem8",
     upvotes: 4,
     downvotes: 0,
     img: mem8,
   },
   {
+    id: 9,
     title: "Mem9",
     upvotes: 0,
     downvotes: 0,
     img: mem9,
   },
   {
+    id: 10,
     title: "Mem10",
     upvotes: 0,
     downvotes: 0,
@@ -75,10 +85,12 @@ export const memeData = [
 
 function memes(state = memeData, action) {
   switch (action.type) {
+    case 'UPVOTE':
+      return { value: state.value + 1 }
     default:
       return state
   }
 }
 
-export const store= createStore(memes,composeWithDevTools())
-window.store=store;
+export const store = createStore(memes, composeWithDevTools())
+window.store = store;
