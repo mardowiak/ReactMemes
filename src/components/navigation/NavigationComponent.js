@@ -4,7 +4,6 @@ import "./../../App.css";
 export default function NavigationComponent() {
   return (
     <div >
-      <Logo />
       <NavigationRoute />
     </div>
   );

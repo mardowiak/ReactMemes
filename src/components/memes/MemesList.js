@@ -42,7 +42,7 @@ export const memeData = [
   {
     id: 5,
     title: "Mem5",
-    upvotes: 6,
+    upvotes: 20,
     downvotes: 11,
     img: mem5,
   },
