@@ -1,8 +1,40 @@
 body {
-  background-color: black;
+  background-color: rgb(20, 19, 19);
   color: white;
+  display:flex;
+  justify-content: center;
 }
 .navigation_list {
-  background-color: grey;
   list-style-type: none;
+
+}
+.navigation{
+  background-color: rgb(172, 24, 24);
+  width:100%;
+  display: inline-block;
+}
+.upvote-button{
+  background-color: #4CAF50; 
+  border-color:#4CAF50 ;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.downvote-button{
+  background-color: #f44336; /* Green */
+  border-color:#f44336 ;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.buttons{
+  display:flex;
+  justify-content: space-around;
+
 }
