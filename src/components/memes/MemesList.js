@@ -8,8 +8,7 @@ import mem7 from "../../img/mem7.jpg";
 import mem8 from "../../img/mem8.jpg";
 import mem9 from "../../img/mem9.jpg";
 import mem10 from "../../img/mem10.jpg";
-import { createStore } from "redux";
-import { composeWithDevTools } from "redux-devtools-extension";
+
 export const memeData = [
   {
     id: 1,
@@ -82,14 +81,3 @@ export const memeData = [
     img: mem10,
   },
 ];
-
-function memes(state = memeData, action) {
-  switch (action.type) {
-    default:
-      return state
-  }
-}
-
-
-export const store = createStore(memes, composeWithDevTools())
-window.store = store;
